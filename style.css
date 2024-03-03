@@ -1,0 +1,39 @@
+/* Footer */
+footer {
+  width: 100%;
+  border: 2px solid red;
+  position: absolute;
+  bottom: 25px;
+}
+footer > .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24px;
+  align-content: stretch;
+  border: 2px solid blue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+footer a{
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+footer > .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid green;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.bottom > #language, span{
+    margin-left: 8px;
+    margin-right: 8px;
+}
